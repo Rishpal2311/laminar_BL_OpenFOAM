@@ -7,3 +7,4 @@ postProcessing/
 [0-9]*
 # But keep your initial conditions
 !0/
+.DS_Store
