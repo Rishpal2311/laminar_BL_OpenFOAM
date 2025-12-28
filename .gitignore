@@ -1,0 +1,9 @@
+# Ignore OpenFOAM results and GeoChemFoam 'runs' directory
+runs/
+VTK/
+postProcessing/
+
+# Ignore all numbered time-step folders (e.g., 0.1, 0.5, 10)
+[0-9]*
+# But keep your initial conditions
+!0/
